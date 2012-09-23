@@ -1,0 +1,18 @@
+This program was written as a part of the final project for class EECS 220 UC Irvine to test 
+multithreading on the Solaris 64 core machine.
+
+The program makes use of the "libtiff" module to read the input and write the output file.
+Therefore ensure that the library has been installed on the system used to test this code.
+
+In order to create the executable:
+
+type "make", this will create an object file "hist.o".
+
+To run the program use the following syntax:
+
+Syntax: ./hist.o [number_of_threads] [filename]
+
+The code that reads and writes tiff files was taken from:
+http://cboard.cprogramming.com/cplusplus-programming/47440-problem-reading-tiff-image-files.html
+
+This folder contains a sample input file "IrvinePark.tiff" and output file "output.tiff".
